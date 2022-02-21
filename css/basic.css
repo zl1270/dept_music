@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;400;700&display=swap');
+
+
+
+
+* { margin:0; padding:0; box-sizing: border-box;}
+li { list-style: none;}
+a { text-decoration: none;}
+body { font-family: Verdana, Geneva, Tahoma, sans-serif;}
+img { max-width: 100%;}
+
+
+header {width:100%;
+    padding: 70px 0 100px;
+    background:url("../img/background-00.jpg") no-repeat center 20%/cover;
+    font-family: 'Martel', serif;
+    }
+
+header h2 { padding-top: 90px;
+            font-size:4vw;
+            text-shadow: 0 0 8px rgb(0 0 0 /30%);
+            
+            }
+header h4 { font-size:16px;}
+
+section { padding:70px 0;}
+section img { width:350px; border-radius: 10px;}
+section h2 { font-size:25px; 
+            line-height: 1.4;
+            margin-bottom:60px;
+            }
+section h2 strong { font-size:32px;}
+section p { font-size:15px;
+            line-height:1.5;
+            color:#333;
+            }
+section p .bi { color:#0d6efd; padding-right:10px;}
+section p.mt { margin-top:70px;}
+
+section#app { }
+section#app img { width:220px; 
+                margin-bottom:50px;
+                border-radius: 50%;
+                }
+section#app h3 { font-size:32px;  margin-bottom:20px;}
+section#app p { font-size:13px;
+                line-height:1.7;
+                margin-bottom:40px;
+                }
+section#app a { font-size:13px; }
+
+
+footer>div { padding:4.5vw 0 10vw;
+            }
+footer h3 { color:#fff;
+            font-size:18px;
+            margin-bottom:25px;
+            }
+footer ul { padding-left:0;}
+footer li { margin-bottom:10px;}
+footer a , footer p { color:#6c757d;}
+footer li a:hover { color: #6c757d;
+                    text-decoration: underline;
+                    }
+.sns {}
+.sns a { display:inline-block;
+        background:#f5a2b4;
+        color:#fff;
+        width:32px;
+        height: 32px;
+        border-radius: 50%;
+        text-align: center;
+        line-height:32px;
+        margin-right:5px;
+        transition:.2s;
+        }
+.sns a:hover { background:#e28095;}
+
+
+/* 1200px 이상 */
+@media (min-width:1200px ) {
+    header {padding: 90px 0 100px; }
+    header h2 { font-size:3.5vw;}
+    header h4 { font-size:18px;}
+}
+/* 767px 이하 */
+@media (max-width:767px){
+    header { padding: 50px 0 70px;}
+    header h2 { font-size:30px;}
+    header h4 { font-size:12px;}
+    header button { transform: scale(0.7);}
+    header p { font-size:14px;}
+
+
+    section { padding: 40px 0;}
+    section h2 { font-size:24px;
+                margin-bottom:30px;
+            }
+    section p { font-size:12px;}
+    section p.mt { margin-top:40px;}
+
+
+    #s4 {padding-bottom:100px;}
+    #app .row >div { padding: bottom 80px;}
+
+}
