@@ -1,13 +1,18 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;400;700&display=swap');
-
+@font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
 * { margin:0; padding:0; box-sizing: border-box;}
 li { list-style: none;}
 a { text-decoration: none;}
-body { font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body { font-family:'MaruBuri-Regular', 'Martel', serif;}
 img { max-width: 100%;}
 
 
